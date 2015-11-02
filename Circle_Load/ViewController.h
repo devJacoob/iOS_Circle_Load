@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CircleLoaderView.h"
+@interface ViewController : UIViewController{
+    
+    CircleLoaderView *drawObj;
+}
 
-@interface ViewController : UIViewController
 
 
 @end

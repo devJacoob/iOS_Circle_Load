@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F14AEC91BE7B8F2006E4FB8 /* CircleLoaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F14AEC81BE7B8F2006E4FB8 /* CircleLoaderView.m */; settings = {ASSET_TAGS = (); }; };
 		3F194E671BE26D79003B4DAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F194E661BE26D79003B4DAC /* main.m */; };
 		3F194E6A1BE26D79003B4DAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F194E691BE26D79003B4DAC /* AppDelegate.m */; };
 		3F194E6D1BE26D79003B4DAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F194E6C1BE26D79003B4DAC /* ViewController.m */; };
@@ -15,6 +16,10 @@
 		3F194E751BE26D79003B4DAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F194E731BE26D79003B4DAC /* LaunchScreen.storyboard */; };
 		3F194E801BE26D79003B4DAC /* Circle_LoadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F194E7F1BE26D79003B4DAC /* Circle_LoadTests.m */; };
 		3F194E8B1BE26D79003B4DAC /* Circle_LoadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F194E8A1BE26D79003B4DAC /* Circle_LoadUITests.m */; };
+		3F194E991BE2702B003B4DAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F194E981BE2702B003B4DAC /* CoreGraphics.framework */; };
+		3F194E9B1BE27035003B4DAC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F194E9A1BE27035003B4DAC /* QuartzCore.framework */; };
+		3F194E9D1BE2703D003B4DAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F194E9C1BE2703D003B4DAC /* UIKit.framework */; };
+		3F194E9F1BE27044003B4DAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F194E9E1BE27044003B4DAC /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F14AEC71BE7B8F2006E4FB8 /* CircleLoaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CircleLoaderView.h; path = ../CircleLoaderView.h; sourceTree = "<group>"; };
+		3F14AEC81BE7B8F2006E4FB8 /* CircleLoaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CircleLoaderView.m; path = ../CircleLoaderView.m; sourceTree = "<group>"; };
 		3F194E621BE26D79003B4DAC /* Circle_Load.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Circle_Load.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F194E661BE26D79003B4DAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3F194E681BE26D79003B4DAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,10 @@
 		3F194E861BE26D79003B4DAC /* Circle_LoadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Circle_LoadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F194E8A1BE26D79003B4DAC /* Circle_LoadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Circle_LoadUITests.m; sourceTree = "<group>"; };
 		3F194E8C1BE26D79003B4DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F194E981BE2702B003B4DAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F194E9A1BE27035003B4DAC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3F194E9C1BE2703D003B4DAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F194E9E1BE27044003B4DAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F194E9F1BE27044003B4DAC /* Foundation.framework in Frameworks */,
+				3F194E9D1BE2703D003B4DAC /* UIKit.framework in Frameworks */,
+				3F194E9B1BE27035003B4DAC /* QuartzCore.framework in Frameworks */,
+				3F194E991BE2702B003B4DAC /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +99,7 @@
 				3F194E641BE26D79003B4DAC /* Circle_Load */,
 				3F194E7E1BE26D79003B4DAC /* Circle_LoadTests */,
 				3F194E891BE26D79003B4DAC /* Circle_LoadUITests */,
+				3F194EA01BE2704C003B4DAC /* Frameworks */,
 				3F194E631BE26D79003B4DAC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,6 +121,8 @@
 				3F194E691BE26D79003B4DAC /* AppDelegate.m */,
 				3F194E6B1BE26D79003B4DAC /* ViewController.h */,
 				3F194E6C1BE26D79003B4DAC /* ViewController.m */,
+				3F14AEC71BE7B8F2006E4FB8 /* CircleLoaderView.h */,
+				3F14AEC81BE7B8F2006E4FB8 /* CircleLoaderView.m */,
 				3F194E6E1BE26D79003B4DAC /* Main.storyboard */,
 				3F194E711BE26D79003B4DAC /* Assets.xcassets */,
 				3F194E731BE26D79003B4DAC /* LaunchScreen.storyboard */,
@@ -138,6 +156,17 @@
 				3F194E8C1BE26D79003B4DAC /* Info.plist */,
 			);
 			path = Circle_LoadUITests;
+			sourceTree = "<group>";
+		};
+		3F194EA01BE2704C003B4DAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F194E9E1BE27044003B4DAC /* Foundation.framework */,
+				3F194E9C1BE2703D003B4DAC /* UIKit.framework */,
+				3F194E9A1BE27035003B4DAC /* QuartzCore.framework */,
+				3F194E981BE2702B003B4DAC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F194E6D1BE26D79003B4DAC /* ViewController.m in Sources */,
+				3F14AEC91BE7B8F2006E4FB8 /* CircleLoaderView.m in Sources */,
 				3F194E6A1BE26D79003B4DAC /* AppDelegate.m in Sources */,
 				3F194E671BE26D79003B4DAC /* main.m in Sources */,
 			);
@@ -363,7 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -400,7 +430,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -412,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Circle_Load/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Myapp.Circle-Load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Circle_Load/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Myapp.Circle-Load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +528,7 @@
 				3F194E911BE26D79003B4DAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F194E921BE26D79003B4DAC /* Build configuration list for PBXNativeTarget "Circle_LoadTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +537,7 @@
 				3F194E941BE26D79003B4DAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F194E951BE26D79003B4DAC /* Build configuration list for PBXNativeTarget "Circle_LoadUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +546,7 @@
 				3F194E971BE26D79003B4DAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
